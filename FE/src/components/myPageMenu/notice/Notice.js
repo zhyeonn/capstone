@@ -19,7 +19,7 @@ const Notice = () => {
             <tr>
               <td className="noticeTdNumber">1</td>
               <td className="noticeTdTitle notCenter">
-                <Link to="/NoticeContents" className="noticeTdTitleContents">
+                <Link to="/myPage" className="noticeTdTitleContents">
                   수강 신청 안내
                 </Link>
               </td>
