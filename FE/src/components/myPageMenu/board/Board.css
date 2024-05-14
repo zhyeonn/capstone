@@ -27,7 +27,7 @@ table td:last-child {
 .boardPageWrap {
   display: flex;
   width: 1250px;
-  height: 700px;
+  height: 800px;
   justify-content: center;
 }
 
