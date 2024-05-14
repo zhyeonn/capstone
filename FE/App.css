@@ -177,15 +177,15 @@ footer {
 }
 
 /* Calendar 컴포넌트 */
-.calendarWrap {
+/* .calendarWrap {
   display: flex;
   justify-content: center;
   width: 1250px;
   height: 800px;
-}
-.calendar {
+} */
+/* .calendar {
   width: 1000px;
-}
+} */
 .calendar_header {
   display: flex;
   justify-content: center;
