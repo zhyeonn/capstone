@@ -1,0 +1,138 @@
+.pageTitle {
+  position: relative;
+  font-size: 30px;
+  height: 80px;
+  top: 40px;
+  left: 230px;
+}
+
+.rowHr2 {
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: 175px;
+}
+
+.noticePageWrap {
+  display: flex;
+  align-items: center;
+  width: 1250px;
+  height: 700px;
+}
+
+.noticeTable {
+  margin-top: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+table th,
+table td {
+  border: #cfcfcf 1px solid;
+  height: 30px;
+  padding: 5px;
+}
+
+thead {
+  border-top: none;
+}
+
+table th:first-child,
+table td:first-child {
+  border-left: 0;
+}
+table th:last-child,
+table td:last-child {
+  border-right: 0;
+}
+
+.noticeTdIndex {
+  width: 50px;
+  text-align: center;
+}
+
+.noticeTdTitle {
+  width: 300px;
+  text-align: center;
+}
+
+.noticeTdTitle.notCenter {
+  text-align: left;
+}
+
+.noticeTdWriter {
+  width: 100px;
+  text-align: center;
+}
+
+.noticeTdDate {
+  width: 100px;
+  text-align: center;
+}
+
+.noticeTdIndex.ntIndex {
+  border-top: none;
+  border-bottom: #cfcfcf 5px solid;
+}
+
+.noticeTdTitle.ntTitle {
+  border-top: none;
+  border-bottom: #cfcfcf 5px solid;
+}
+
+.noticeTdWriter.ntWriter {
+  border-top: none;
+  border-bottom: #cfcfcf 5px solid;
+}
+
+.noticeTdDate.ntDate {
+  border-top: none;
+  border-bottom: #cfcfcf 5px solid;
+}
+
+.noticeTdTitleContents {
+  text-decoration: none;
+  color: black;
+}
+
+.pageWrap {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+  height: 100vh;
+}
+.page1 {
+  z-index: 1;
+  width: 100%;
+}
+.page2 {
+  z-index: 99;
+  color: white;
+}
+
+.pageContents {
+  display: flex;
+}
+
+.linePage {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.line {
+  border-left: 1px solid black;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.noticeTableWrap {
+  margin: 10px;
+}
