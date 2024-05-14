@@ -1,0 +1,116 @@
+.logoSidebar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.sidebarButton {
+  background-color: white;
+  border: none;
+}
+
+.pageTitle {
+  position: relative;
+  font-size: 30px;
+  margin-top: 25px;
+  top: 500px;
+  margin-left: 25px;
+}
+
+.rowHr {
+  position: relative;
+  width: 100%;
+  top: 3px;
+  background-color: beige;
+}
+
+.myPageBoard {
+  width: 200px;
+}
+
+/* .page1 {
+      z-index: 1;
+      width: 100%;
+    } */
+
+.page2 {
+  z-index: 99;
+  color: white;
+}
+
+.pageContents {
+  display: flex;
+}
+
+.linePage {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.line {
+  border-left: 1px solid black;
+  height: 100%;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.noticeTableWrap {
+  margin: 10px;
+}
+
+.myPageBoard {
+  margin: 10px;
+}
+
+.myPage {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.board {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.myPageBoardTitle {
+  color: #263392;
+  margin: 5px;
+}
+
+.myPageBoardMenu {
+  color: black;
+  background-color: white;
+  border: none;
+  margin: 5px;
+  text-align: left;
+}
+
+.thisPage {
+  color: black;
+  background-color: white;
+  border: none;
+  margin: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.myPageMenuWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1250px;
+  height: 700px;
+}
+
+.myPageMenu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
