@@ -64,7 +64,9 @@ const Board = () => {
                 </button>
               </div>
             </div>
-            <BoardTable board={board} />
+            <div className="boardTableWrap">
+              <BoardTable board={board} />
+            </div>
           </div>
           <div className="boardPage2">
             <div
