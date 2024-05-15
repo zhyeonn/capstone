@@ -54,8 +54,6 @@ const ChangePassword = () => {
                   현재 비밀번호와 변경 비밀번호가 일치합니다.
                 </div>
               )}
-          </div>
-          <div className="changePasswordErrorMessageWrap">
             {changePw !== checkPw &&
               (changePw.length > 0 || checkPw.length > 0) && (
                 <div className="changePasswordErrorMessage">
@@ -65,8 +63,8 @@ const ChangePassword = () => {
           </div>
         </div>
         <div className="changePasswordBtnWrap">
-          <button className="changePasswordBtn changeBtn">변경하기</button>
-          <button className="changePasswordBtn cancleBtn">취소하기</button>
+          <button className="changePasswordBtn">변경하기</button>
+          <button className="changePasswordcancleBtn">취소하기</button>
         </div>
       </div>
     </div>
