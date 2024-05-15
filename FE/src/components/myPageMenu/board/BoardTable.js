@@ -15,9 +15,9 @@ const BoardTable = (props) => {
           </tr>
         </thead>
       </table>
-      {props.board.map((title, index) => (
-        <BoardTableItem title={title} index={index} />
-      ))}
+      {props.board
+        .map((title, index) => <BoardTableItem title={title} index={index} />)
+        .reverse()}
     </div>
   );
 };
