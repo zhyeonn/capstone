@@ -6,10 +6,6 @@
   left: 230px;
 }
 
-.rowHr2 {
-  position: relative;
-}
-
 .line {
   position: absolute;
   top: 175px;
@@ -18,14 +14,11 @@
 .noticePageWrap {
   display: flex;
   align-items: center;
-  width: 1250px;
   height: 800px;
 }
 
 .noticeTable {
   margin-top: 0;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 table {
@@ -54,12 +47,12 @@ table td:last-child {
 }
 
 .noticeTdIndex {
-  width: 50px;
+  width: 80px;
   text-align: center;
 }
 
 .noticeTdTitle {
-  width: 300px;
+  width: 500px;
   text-align: center;
 }
 
@@ -102,25 +95,6 @@ table td:last-child {
   color: black;
 }
 
-.pageWrap {
-  display: flex;
-  justify-content: flex-end;
-  z-index: 1;
-  height: 100vh;
-}
-.page1 {
-  z-index: 1;
-  width: 100%;
-}
-.page2 {
-  z-index: 99;
-  color: white;
-}
-
-.pageContents {
-  display: flex;
-}
-
 .linePage {
   display: flex;
   margin: 10px;
@@ -131,8 +105,4 @@ table td:last-child {
   border-left: 1px solid black;
   height: 100%;
   margin-right: 10px;
-}
-
-.noticeTableWrap {
-  margin: 10px;
 }
