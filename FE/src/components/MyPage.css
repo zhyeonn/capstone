@@ -4,42 +4,27 @@
   padding: 10px;
 }
 
-.sidebarButton {
-  background-color: white;
-  border: none;
-}
-
 .pageTitle {
   position: relative;
   font-size: 30px;
   margin-top: 25px;
   top: 500px;
-  margin-left: 25px;
+  margin-left: 210px;
 }
 
 .rowHr {
   position: relative;
   width: 100%;
   top: 3px;
-  background-color: beige;
 }
 
+.myPageContents {
+  display: flex;
+  margin-right: 200px;
+  margin-left: 200px;
+}
 .myPageBoard {
   width: 200px;
-}
-
-/* .page1 {
-      z-index: 1;
-      width: 100%;
-    } */
-
-.page2 {
-  z-index: 99;
-  color: white;
-}
-
-.pageContents {
-  display: flex;
 }
 
 .linePage {
@@ -53,10 +38,7 @@
   height: 100%;
   margin-top: 5px;
   margin-right: 10px;
-}
-
-.noticeTableWrap {
-  margin: 10px;
+  left: 420px;
 }
 
 .myPageBoard {
@@ -64,13 +46,13 @@
 }
 
 .myPage {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
 
 .board {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -81,17 +63,22 @@
 }
 
 .myPageBoardMenu {
+  font-size: 15px;
   color: black;
   background-color: white;
   border: none;
+  padding-left: 0;
   margin: 5px;
   text-align: left;
+  cursor: pointer;
 }
 
 .thisPage {
+  font-size: 15px;
   color: black;
   background-color: white;
   border: none;
+  padding-left: 0;
   margin: 5px;
   text-align: left;
   font-weight: bold;
@@ -99,9 +86,10 @@
 
 .myPageMenuWrap {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 30px;
   align-items: center;
-  width: 1250px;
+  width: 850px;
   height: 800px;
 }
 
