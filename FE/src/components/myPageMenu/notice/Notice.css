@@ -1,48 +1,31 @@
-.pageTitle {
-  position: relative;
-  font-size: 30px;
-  height: 80px;
-  top: 40px;
-  left: 230px;
-}
-
-.line {
-  position: absolute;
-  top: 175px;
-}
-
 .noticePageWrap {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   height: 800px;
 }
 
 .noticeTable {
   margin-top: 0;
-}
-
-table {
   border-collapse: collapse;
-  margin: auto;
 }
 
-table th,
-table td {
+.noticeTable th,
+.noticeTable td {
   border: #cfcfcf 1px solid;
   height: 30px;
   padding: 5px;
 }
 
-thead {
+.noticeTable thead {
   border-top: none;
 }
 
-table th:first-child,
-table td:first-child {
+.noticeTable th:first-child,
+.noticeTable td:first-child {
   border-left: 0;
 }
-table th:last-child,
-table td:last-child {
+.noticeTable th:last-child,
+.noticeTable td:last-child {
   border-right: 0;
 }
 
@@ -93,16 +76,4 @@ table td:last-child {
 .noticeTdTitleContents {
   text-decoration: none;
   color: black;
-}
-
-.linePage {
-  display: flex;
-  margin: 10px;
-  padding: 10px;
-}
-
-.line {
-  border-left: 1px solid black;
-  height: 100%;
-  margin-right: 10px;
 }
