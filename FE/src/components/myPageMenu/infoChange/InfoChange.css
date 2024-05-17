@@ -1,43 +1,52 @@
-.infoChangeWrap {
+.infoChangePageWrap {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 1250px;
   height: 800px;
 }
-.infoChange {
+.infoChangePage {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin-top: 0;
+  position: relative;
 }
+
 .infoChangeHeader {
   font-size: 30px;
-  padding: 10px;
-}
-.infoChangeContents {
-  display: flex;
   padding: 10px;
 }
 .infoChangeLabel {
   display: inline-block;
   text-align: center;
-  width: 70px;
-  padding: 3px;
+  font-size: 15px;
+  width: 80px;
 }
+
+.infoChangeInputWrap {
+  margin: 20px;
+}
+
 .infoChangeInput {
-  border-radius: 5px;
   padding: 5px;
-  border: 0.5px solid black;
+  border-radius: 5px;
   width: 250px;
+  height: 20px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border: 0.5px solid black;
 }
+
 .infoChangeInput:hover {
   border: 1px solid black;
 }
-.infoChangeButtonWrap {
-  padding: 5px;
+
+.infoChangeBtnWrap {
+  position: relative;
+  top: 10px;
 }
-.infoChangeButton {
+
+.infoChangeBtn {
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
@@ -48,7 +57,8 @@
   color: white;
   border: 1px solid #263392;
 }
-.infoChangeCancleButton {
+
+.infoChangecancleBtn {
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
