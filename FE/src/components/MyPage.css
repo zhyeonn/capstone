@@ -5,17 +5,16 @@
 }
 
 .pageTitle {
-  position: relative;
   font-size: 30px;
-  margin-top: 25px;
-  top: 500px;
-  margin-left: 210px;
+  margin-top: 60px;
+  top: 100px;
+  margin-left: 420px;
 }
 
 .rowHr {
   position: relative;
   width: 100%;
-  top: 3px;
+  top: 10px;
 }
 
 .myPageContents {
@@ -28,17 +27,20 @@
 }
 
 .linePage {
+  position: relative;
   display: flex;
   margin: 10px;
   padding: 10px;
 }
 
 .line {
+  position: absolute;
   border-left: 1px solid black;
   height: 100%;
-  margin-top: 5px;
+  margin-top: 0px;
+  top: -17px;
   margin-right: 10px;
-  left: 420px;
+  left: 20px;
 }
 
 .myPageBoard {
