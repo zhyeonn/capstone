@@ -26,7 +26,6 @@ table td:last-child {
 
 .boardPageWrap {
   display: flex;
-  width: 1250px;
   height: 800px;
   justify-content: center;
 }
@@ -125,26 +124,20 @@ table td:last-child {
   color: white;
 }
 .boardTableWrap {
-  /* background-color: beige; */
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  margin: auto;
 }
 .boardTable {
-  width: 1000px;
   margin-top: 0;
-  margin-left: 100px;
-  margin-right: 100px;
-  /* background-color: aliceblue; */
 }
 
 .boardTdIndex {
-  width: 91px;
+  width: 80px;
   text-align: center;
 }
 
 .boardTdTitle {
-  width: 514px;
+  width: 500px;
   text-align: center;
 }
 
@@ -152,13 +145,13 @@ table td:last-child {
   text-align: left;
 }
 
-.boardTdWriters {
+.boardTdWriter {
   width: 100px;
   text-align: center;
 }
 
 .boardTdDate {
-  width: 176px;
+  width: 100px;
   text-align: center;
 }
 
@@ -169,22 +162,17 @@ table td:last-child {
 
 .boardTdIndex.btIndex {
   border-bottom: #cfcfcf 5px solid;
-  width: 50px;
-  text-align: center;
 }
 
 .boardTdTitle.btTitle {
-  width: 300px;
   border-bottom: #cfcfcf 5px solid;
 }
 
 .boardTdWriter.btWriter {
-  width: 100px;
   border-bottom: #cfcfcf 5px solid;
 }
 
 .boardTdDate.btDate {
-  width: 100px;
   border-bottom: #cfcfcf 5px solid;
 }
 
