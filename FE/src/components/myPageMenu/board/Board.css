@@ -1,26 +1,26 @@
-table {
+.boardTable {
   border-collapse: collapse;
   margin: auto;
 }
 
-table th,
-table td {
+.boardTable th,
+.boardTable td {
   border: 1px #cfcfcf solid;
   border-top: none;
   height: 30px;
   padding: 5px;
 }
 
-thead {
+.boardTable thead {
   border-top: none;
 }
 
-table th:first-child,
-table td:first-child {
+.boardTable table th:first-child,
+.boardTable table td:first-child {
   border-left: 0;
 }
-table th:last-child,
-table td:last-child {
+.boardTable table th:last-child,
+.boardTable table td:last-child {
   border-right: 0;
 }
 
