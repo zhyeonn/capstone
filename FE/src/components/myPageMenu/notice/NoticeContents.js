@@ -4,7 +4,7 @@ import "./Notice.css";
 const NoticeContents = () => {
   return (
     <div>
-      <table>
+      <table className="noticeTable">
         <thead>
           <tr>
             <td className="noticeTdTitle ntTitle">수강 신청 안내</td>
