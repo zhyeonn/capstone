@@ -1,0 +1,61 @@
+.calculatorWrap {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.CalculatorTable1 {
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 0px;
+  margin: 0;
+  height: 600px;
+  border: none;
+}
+
+.CalculatorTable1 th,
+.CalculatorTable1 td {
+  border-bottom: 1px solid #cfcfcf;
+  border-left: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+  width: 100px;
+  height: 30px;
+}
+
+.CalculatorTable2 {
+  border-collapse: collapse;
+  text-align: center;
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  background-color: rgb(155, 163, 172);
+}
+
+.CalculatorTable2 th,
+.CalculatorTable2 td {
+  width: 100px;
+  height: 30px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-left: none;
+  color: white;
+}
+.CalculatorTable2 thead > tr {
+  border-bottom: 3px solid white;
+}
+
+.calculatorThIndex.ctIndex {
+  border-bottom: #cfcfcf 5px solid;
+}
+
+.calculatorThGrade.ctGrade {
+  border-bottom: #cfcfcf 5px solid;
+}
+
+.calculatorThRemain.ctRemain {
+  border-bottom: #cfcfcf 5px solid;
+}
+
+.calculatorThExcess.ctExcess {
+  border-bottom: #cfcfcf 5px solid;
+}
