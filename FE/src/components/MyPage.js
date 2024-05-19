@@ -18,7 +18,7 @@ const MyPage = () => {
     <div>
       <NavbarWithoutUl />
       <div>
-        <div>
+        <div className="myPageWrap">
           <div className="pageTitle">
             {changeComponent === "changePassword" && (
               <div>비밀번호 변경하기</div>
@@ -35,7 +35,7 @@ const MyPage = () => {
           <div>
             <hr className="rowHr" />
           </div>
-          <div className="pageContents">
+          <div className="myPageContents">
             <div className="myPageBoard">
               <div className="myPage">
                 <div className="myPageBoardTitle">마이페이지</div>
@@ -130,6 +130,8 @@ const MyPage = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="myPageFooter">
         <Footer />
       </div>
     </div>
